@@ -1,10 +1,11 @@
 .items{
-    height: 155px;
-    width: 150px;
+    height: 160px;
+    width: 155px;
     border:2px solid black;
     margin: 10px;
     text-align: center;
     font-size: auto;
+    vertical-align: text-bottom;
 }
 .section-body{
     display: flex;
@@ -20,6 +21,10 @@ img{
     max-width: 128px;
     max-height: 140px;
     text-align: center;
-    display: block;
+    display: flex;
     image-rendering: auto;
+    margin: auto;
+    margin-top: auto;
+    justify-content: center;
+    
 }
