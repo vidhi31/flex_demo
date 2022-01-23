@@ -1,6 +1,5 @@
 .items{
-    height: 160px;
-    width: 155px;
+    min-width: 128px;
     border:2px solid black;
     margin: 10px;
     text-align: center;
@@ -22,7 +21,6 @@ img{
     max-height: 140px;
     text-align: center;
     display: flex;
-    image-rendering: auto;
     margin: auto;
     margin-top: auto;
     justify-content: center;
